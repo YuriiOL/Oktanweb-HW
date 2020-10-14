@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+img {
+  height: 500px;
+  width: 600px;
+}
+
+#pastaInfo {
+  background-color: darkred;
+  color: white;
+}
+
+#burgerInfo {
+  background-color: darkblue;
+  color: white;
+}
+
+.first {
+  color: rgb(43, 255, 0);
+}
+
+.second {
+  color: #ffd700;
+}
+
+div {
+  padding: 0 30%;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.info {
+  height: 100px;
+  padding: 0 20%;
+  border: 2px solid black;
+  overflow: auto;
+}
+
+span {
+  font-size: 20px;
+  padding-top: 40px;
+  height: 100px;
+  font-weight: bold;
+  background-color: gold;
+  display: block;
+}
