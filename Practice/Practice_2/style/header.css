@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: -10px;
+}
+
+header {
+  background-color: gray;
+  height: 150px;
+  text-align: center;
+  padding: 1% 20%;
+}
+
+.headBig {
+  background-color: white;
+  height: 100px;
+  padding: 3% 20%;
+}
+
+.headSmall {
+  background-color: tomato;
+  height: 50px;
+}
+
+footer {
+  background-color: darkred;
+  height: 100px;
+  text-align: center;
+}

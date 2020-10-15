@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  background-color: gold;
+  height: 500px;
+  text-align: center;
+
+}
+
+.maniTop {
+  background-color: darkblue;
+  height: 30%;
+}
+
+.main {
+  float: left;
+  border: 1px solid black;
+  height: 100%;
+  width: 25%;
+}
+
+.box1 {
+  background-color: black;
+}
+
+.box2 {
+  background-color: rgb(39, 38, 38);
+}
+
+.box3 {
+  background-color: rgb(139, 138, 138);
+}
+
+.box4 {
+  background-color: rgb(247, 247, 247);
+}
+
+.mainBottom {
+  background-color: darkblue;
+  float: left;
+  height: 67%;
+  width: 100%;
+}
+
+.mbot {
+  border: 1px solid black;
+  width: 33%;
+  height: 100%;
+  float: left;
+}
+
+.bot1 {
+  background-color: blanchedalmond;
+}
+
+.bot2 {
+  background-color: gray;
+  width: 34%;
+}
+
+.bot3 {
+  background-color: honeydew;
+}
+
+.left {
+  background-color: chartreuse;
+  height: 80%;
+  width: 60%;
+  margin: 3% 20%;
+}
+
+.leftL {
+  height: 87%;
+  width: 50%;
+  background-color: blue;
+  float: left;
+
+}
+
+.leftR {
+  height: 87%;
+  width: 50%;
+  background-color: brown;
+  float: left;
+
+}
+
+.bot2Bottom {
+  background-color: darkgoldenrod;
+  height: 90%;
+}
+
+.bot2Bottom1 {
+  width: 33%;
+  height: 100%;
+  background-color: red;
+  float: left;
+}
+
+.bot2Bottom2 {
+  width: 34%;
+  height: 100%;
+  background-color: rgb(170, 49, 49);
+  float: left;
+}
+
+.bot2Bottom2 p {
+  margin: 5px;
+}
+
+.bot2Bottom3 {
+  color: black;
+  width: 33%;
+  height: 100%;
+  background-color: rgb(48, 13, 13);
+  float: left;
+}
+
+.a-c {
+  height: 90%;
+  width: 50%;
+  background-color: rgb(228, 228, 228);
+  float: left;
+}
+
+.b-c {
+  margin-top: 47%;
+  background-color: rgb(7, 6, 6);
+  width: 50%;
+  height: 62%;
+  float: left;
+  color: aliceblue;
+}
+
+.b3 {
+  width: 33%;
+  height: 40%;
+
+  float: left;
+}
+
+.f {
+  margin-top: 25%;
+  background-color: rgb(95, 63, 63);
+}
+
+.s {
+  width: 34%;
+  margin-top: 15%;
+  background-color: rgb(161, 49, 49);
+}
+
+.t {
+  margin-top: 5%;
+  background-color: rgb(212, 21, 21);
+}
+
+.text1 {
+  background-color: black;
+  color: aliceblue;
+  width: 60%;
+  float: right;
+  margin-top: 30%;
+}
+
+.text2 {
+  background-color: black;
+  color: aliceblue;
+  width: 60%;
+  float: left;
+  margin-top: 10%;
+}
+
+p {
+  margin-top: 0px;
+}
