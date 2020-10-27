@@ -1,0 +1,67 @@
+.TopElement,
+.bottomList {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  list-style-type: none;
+  font-weight: 900;
+}
+.TopCurrent,
+.BottomCurrent {
+  color: #7e0019;
+}
+.TopElement > li,
+.bottomList > li {
+  margin-left: 1%;
+}
+.headMain {
+  width: 100%;
+  background-color: #7e0019;
+  margin-top: -5px;
+}
+.midElement {
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  list-style-type: none;
+  align-items: center;
+}
+.sizying {
+  margin: 0px 10%;
+}
+.bottomList {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+header {
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+.homeButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#clubUP {
+  color: white;
+  background-color: #b30c1d;
+  border: 3px solid white;
+  height: 40px;
+  border-radius: 18px;
+  margin-left: 20px;
+  width: 100px;
+  font-weight: bolder;
+}
+#language {
+  font-weight: bolder;
+}
+.ukr {
+  opacity: 0.7;
+}
+.icon {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  margin-right: 20px;
+}
