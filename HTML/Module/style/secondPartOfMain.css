@@ -1,0 +1,119 @@
+.peoples {
+  display: flex;
+  margin: 0 10%;
+}
+
+.people {
+  height: 100%;
+  border-top: 1px solid #7e0019;
+}
+
+.peopleColumn {
+  width: 70%;
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.peopleBlog {
+  width: 30%;
+}
+.peopleColumn > p,
+.peopleBlog > p {
+  width: 100%;
+  color: #7e0019;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+.columnContent {
+  height: 40%;
+  width: 32%;
+  padding: 10px;
+  background-color: #eeeff0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.theBigestColumn {
+  width: 66%;
+}
+.columnContent > p {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.theBigestColumn > p {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 22px;
+}
+.columnContent > img {
+  border-radius: 100%;
+}
+.firma {
+  font-size: 10px;
+}
+.moveToNormal {
+  margin-top: 40px !important;
+  margin-left: 10px !important;
+}
+.workPlace {
+  color: gray;
+}
+.moveToNormalSmall {
+  margin-top: 10px !important;
+  margin-left: 5px !important;
+}
+.moveToNormalSmall > p {
+  font-size: 10px;
+  color: gray;
+  margin: 0px;
+}
+
+.blogPeople {
+  height: 40%;
+  margin: 10px 0px;
+  background-color: #555555;
+}
+.blogTitle {
+  margin-bottom: 15px !important;
+}
+.blogPeople {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 21px;
+}
+.insideBlog {
+  width: 50%;
+  height: 50%;
+}
+.blogfirst {
+  color: white;
+  font-weight: bolder;
+  width: 100%;
+  padding: 20px 10px;
+}
+.blogsecond {
+  width: 20%;
+  padding: 20px 10px;
+}
+.blogthird {
+  width: 80%;
+  padding-top: 30px;
+}
+.blogsecond > img {
+  border-radius: 100%;
+}
+.nameGray {
+  margin-bottom: 0px;
+  margin: 0px !important;
+  font-size: 13px !important;
+  font-weight: normal !important;
+  color: white !important;
+}
+.jobGray {
+  margin: 0px;
+  font-size: 10px;
+  color: gray;
+}
