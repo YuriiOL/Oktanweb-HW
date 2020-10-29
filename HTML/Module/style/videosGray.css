@@ -1,0 +1,50 @@
+.videosGray {
+  background-color: #3b3b3e;
+}
+.VideoWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 10%;
+}
+.VideoWrapper > p {
+  color: white;
+  width: 100%;
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 15px 0px;
+}
+.videoGray {
+  height: 30%;
+  width: 23%;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  display: flex;
+}
+.TheBigestVideo {
+  height: 60%;
+  width: 100%;
+}
+.TheBigestVideo > p {
+  width: 30%;
+  padding: 20px;
+  padding-top: 0px;
+  color: white;
+  font-size: 37px;
+  font-weight: bolder;
+}
+.boxVideo {
+  width: 60%;
+  height: 100%;
+}
+.smallVideo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.smallVideo > p {
+  height: 30%;
+  width: 100%;
+  margin: 10px;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}

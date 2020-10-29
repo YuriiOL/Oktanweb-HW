@@ -2,6 +2,9 @@
 @import './header.css';
 @import './main.css';
 @import './secondPartOfMain.css';
+@import './specProjects.css';
+@import './videosGray.css';
+@import './podcast.css';
 * {
   box-sizing: border-box;
 }

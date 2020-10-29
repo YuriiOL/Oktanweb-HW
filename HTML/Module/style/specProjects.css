@@ -1,0 +1,31 @@
+.specProjects {
+  margin: 0px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #b30c1d;
+  margin-bottom: 3%;
+}
+.specProjects > p {
+  width: 100%;
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 15px 0px;
+  color: #7e0019;
+}
+.specProject {
+  height: 100%;
+  width: 32%;
+}
+.secondProject {
+  width: 33%;
+  margin: 0px 15px;
+}
+.specProject > p {
+  font-size: 22px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+.specProject > span {
+  font-size: 10px;
+  color: #7e0019;
+}
