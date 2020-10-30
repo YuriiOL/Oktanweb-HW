@@ -220,7 +220,25 @@
 // }
 
 //- Відтворити роботу годинника, відрахувавши  2 години 20 хвилини (3 цикли! 1й - години, 2й - хвилини, 3й - секунди)
-//??????????????????????
+// let houre = 0
+// let minutes = 0
+// let second = 0
+
+// while (second <= 60 && minutes <= 60 && houre < 3) {
+//   second++
+//   if (second === 60) {
+//     second = 0
+//     minutes++
+//   }
+//   if (minutes === 60) {
+//     minutes = 0
+//     houre++
+//   }
+//   if (houre === 2 && minutes === 20) {
+//     break
+//   }
+//   console.log(`${houre} ${minutes} ${second}`)
+// }
 
 // Додатково
 // - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
