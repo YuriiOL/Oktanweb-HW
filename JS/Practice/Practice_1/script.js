@@ -60,8 +60,8 @@
 
 // let n = 3
 // let m = 4
-// let k = (3 ** 2 + 4 ** 2) * (1 / 2)
-// console.log(k) // 12.5
+// let k = (3 ** 2 + 4 ** 2) ** (1 / 2)
+// console.log(k) // 5
 
 //7. Напишите скрипт, который выводит "Hello world", создавши переменную str и выводить спомощью document.write, alert и console.log
 
@@ -120,3 +120,27 @@
 // let surname = prompt('Enter surname')
 // let age = prompt('Enter age')
 // alert(`Доброго вечера ${name} ${surname}, мои поздравления что вам ${age}`)
+
+//1. Три різних числа вводяться через prompt().
+//За допомоги if else вивести іх в порядку зростання. (відсортувати по зростанню)
+
+// let numb1 = prompt('Numb1')
+// let numb2 = prompt('Numb2')
+// let numb3 = prompt('Numb3')
+// let arr = []
+// arr.push(numb1, numb2, numb3)
+// arr.sort((a, b) => a - b)
+// for (let i of arr) {
+//   console.log(i)
+// }
+// console.log(arr)
+
+// if (numb1 < numb2 && numb1 < numb3) {
+//   console.log(numb1)
+// }
+// if (numb2 < numb1 && numb2 < numb3) {
+//   console.log(numb2)
+// }
+// if (numb3 < numb1 && numb3 < numb2) {
+//   console.log(numb3)
+// }

@@ -1,0 +1,72 @@
+footer {
+  background-color: #f4f5f7;
+  height: 900px;
+}
+.topOfFotter {
+  margin: 0px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 20%;
+  border-bottom: 1px solid gray;
+  padding-bottom: 40px !important;
+}
+.topOfFotter > p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  margin-top: 50px;
+}
+.material-icons {
+  font-size: 55px !important;
+  margin: 0px 10px;
+}
+.infoSite {
+  display: flex;
+  justify-content: center;
+  margin: 0px 10%;
+  border-bottom: 1px solid gray;
+  padding: 20px 0;
+}
+.infoSite > p {
+  font-size: 15px;
+  font-weight: bolder;
+  margin-right: 15px;
+}
+.preLast {
+  margin: 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  border-bottom: 1px solid gray !important;
+}
+.imgPrelast {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.TheEnd {
+  margin: 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TheEnd > p {
+  width: 25%;
+  font-size: 14px;
+}
+.imgTheEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+.TheEnd > p > span {
+  color: #7e0019;
+}
+.cerryOnCake {
+  margin: 0 10%;
+  display: flex;
+  justify-content: center;
+}

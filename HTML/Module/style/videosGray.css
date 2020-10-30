@@ -39,6 +39,7 @@
 .smallVideo {
   display: flex;
   flex-wrap: wrap;
+  margin-right: 20px;
 }
 .smallVideo > p {
   height: 30%;

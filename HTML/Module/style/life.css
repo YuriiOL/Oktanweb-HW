@@ -1,0 +1,47 @@
+.life {
+  margin: 0 10%;
+  margin-bottom: 40px;
+}
+.life > p {
+  border-top: 1px solid #7e0019;
+  color: #7e0019;
+  width: 100%;
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 15px 0px;
+  padding-top: 10px;
+}
+.lifePicture {
+  display: flex;
+  height: 70%;
+}
+.lifePicture > div {
+  height: 100%;
+  width: 25%;
+  border-right: 1px solid gray;
+  padding: 0 20px;
+}
+.lifePicture > div > p {
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 5px 0px;
+}
+.lifePicture > div > span {
+  font-size: 10px;
+  color: gray;
+}
+.lifeBot {
+  margin-top: 20px;
+  height: 150px;
+  padding: 20px;
+  border-top: 1px solid gray;
+  display: flex;
+}
+.lifeBot > div {
+  width: 25%;
+  border-right: 1px solid gray;
+  margin-right: 10px;
+}
+.lastLife {
+  border-right: none !important;
+}

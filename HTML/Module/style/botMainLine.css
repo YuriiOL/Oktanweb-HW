@@ -1,0 +1,33 @@
+.botSoonEnd {
+  margin: 0 10%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.botSoonEnd > p {
+  border-top: 1px solid #7e0019;
+  color: #7e0019;
+  width: 100%;
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 0px;
+  padding-top: 10px;
+}
+.botSoonEnd > div {
+  width: 25%;
+  height: 100%;
+  padding: 20px;
+  border-right: 1px solid gray;
+}
+.botSoonEnd > div > p {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0px;
+}
+.botSoonEnd > div > span {
+  font-size: 10px;
+  color: gray;
+}
+.history {
+  margin-bottom: 60px;
+}

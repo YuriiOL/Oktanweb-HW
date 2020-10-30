@@ -1,0 +1,32 @@
+.dayjest {
+  height: 600px;
+  background-image: url(../img/wallSreet.jpg);
+  background-size: cover;
+  margin-bottom: 30px;
+}
+.dayjestWrapper {
+  margin: 0px 10%;
+}
+.dayjestWrapper > p {
+  color: white;
+  width: 100%;
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 15px 0px;
+  padding-top: 10px;
+  margin-bottom: 30%;
+}
+.dayjestWrapper > span {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.dayjestWrapper > span > p {
+  width: 75px;
+  color: white;
+  font-size: 13px;
+  font-weight: bolder;
+
+  padding: 5px;
+  background-color: #7e0019;
+}

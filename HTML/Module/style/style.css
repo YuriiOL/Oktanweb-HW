@@ -5,6 +5,13 @@
 @import './specProjects.css';
 @import './videosGray.css';
 @import './podcast.css';
+@import './famouse.css';
+@import './dayjest.css';
+@import './heals.css';
+@import './tabloid.css';
+@import './life.css';
+@import './botMainLine.css';
+@import './footer.css';
 * {
   box-sizing: border-box;
 }

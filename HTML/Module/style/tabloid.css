@@ -1,0 +1,26 @@
+.tabloid {
+  background-color: #d91f12;
+  margin-bottom: 40px;
+}
+.tabloidWrapper {
+  margin: 0px 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tabloidWrapper > p {
+  color: white;
+  font-weight: bolder;
+  padding: 10px 0px;
+  padding-bottom: 0px;
+  font-size: 19px;
+  width: 100%;
+  height: 100%;
+}
+.tabloidContent {
+  width: 23%;
+  margin-right: 20px;
+}
+.tabloidContent > p {
+  color: white;
+  font-weight: bolder;
+}

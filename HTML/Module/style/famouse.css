@@ -1,0 +1,51 @@
+.famouses {
+  margin: 0px 10%;
+  margin-top: 2%;
+}
+.famouses > p {
+  border-top: 1px solid #7e0019;
+  color: #7e0019;
+  width: 100%;
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 15px 0px;
+  padding-top: 10px;
+}
+.topFamous {
+  height: 50%;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+.bottomFamous {
+  height: 50%;
+  padding-top: 20px;
+  margin-bottom: 5%;
+  display: flex;
+}
+.thebigestFamous {
+  height: 100%;
+  width: 50%;
+  padding-right: 20px;
+}
+.thebigestFamous > p {
+  font-weight: bolder;
+  font-size: 85px;
+  margin: 0px;
+}
+.thebigestFamous > span {
+  font-size: 25px;
+}
+.smallFamouse {
+  border-left: 1px solid black;
+  height: 100%;
+  width: 25%;
+  padding: 20px;
+}
+.smallFamouse > p {
+  font-weight: bolder;
+  font-size: 45px;
+  margin: 0px;
+}
+.smallFamouseFirst {
+  border: none;
+}
