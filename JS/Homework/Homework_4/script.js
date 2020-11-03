@@ -90,21 +90,21 @@
 // console.log(howObj(arr))
 
 //- Створити функцію яка приймає масив будь яких объектів, та повертає загальн кількість полів в них
-// let arr = [{name: 'Yurii', surname: 'Oleksvksoyi'}, {name: 'Vika', surname: 'Kushcz'}, {}]
-// function keys(array){
-//     let result = 0
-//     for(let i of array){
-//         if(typeof i === 'object'){
-//             for(let j in i){
-//                 if(j !== null ){
-//                     result++
-//                 }
-//             }
-//         }
-//     }
-//     console.log(result);
-// }
-// keys(arr)
+ let arr = [{name: 'Yurii', surname: 'Oleksvksoyi'}, {name: 'Vika', surname: 'Kushcz'}, {}, 25, 'string', ['asdasd']]
+ function keys(array){
+    let result = 0
+    for(let i of array){
+        if(typeof i === 'object' && !Array.isArray(i)){
+            for(let j in i){
+                if(j !== null ){
+                    result++
+                }
+            }
+        }
+    }
+    console.log(result);
+}
+keys(arr)
 
 //- створити функцію  яка скаладає значення елементів з однаковими індексами  та повертає новий результуючий масив.
 // Приклад
@@ -139,7 +139,7 @@
 // [1,0,6,0,3] => [1,6,3,0,0]
 // [0,1,2,3,4] => [1,2,3,4,0]
 // [0,0,1,0]   => [1,0,0,0]
-// let arr = [0,1,2,3,4]
+// let arr = [0,0,1,0,0,0,0,0,0,0,2,3,4,0,0,0,0,0,0,0]
 // function zero(array){
 //     for(let i in array){
 //         if(array[i] === 0){
