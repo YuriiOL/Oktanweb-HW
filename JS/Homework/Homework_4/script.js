@@ -30,29 +30,58 @@
 
 //- створити функцію яка приймає три числа та виводить та повертає найбільше.
 // function bigest(first, second, third) {
-//     console.log(Math.max(first, second, third));
-//     return Math.max(first, second, third);
+//   if (first > second && first > third) {
+//     console.log(first)
+//     return first
+//   } else if (second > first && second > third) {
+//     console.log(second)
+//     return second
+//   } else {
+//     console.log(third)
+//     return third
+//   }
 // }
-// bigest(6,10,5)
+// bigest(20, 10, 25)
 
 //- створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше
-// function alot(){
-//     console.log(Math.max(...arguments));
-//     return Math.min(...arguments)
+// function alot() {
+//   let small = arguments[0]
+//   for (let i in arguments) {
+//     if (arguments[i] < small) {
+//       small = arguments[i]
+//     }
+//   }
+//   console.log(small)
 // }
-// alot(1,2,3,4,5,6,7,100)
+// alot(25, 1, 2, 3, 4, 5, -1, 6, 7, 100)
 
 //- створити функцію яка виводить масив
 // let showArr = (arr) => console.log(arr)
 // showArr([1,2,3,4,5])
 
 //- створити функцію яка повертає найбільше число з масиву
-// let showArr = (arr) => Math.max(...arr)
-// console.log(showArr([1, 2, 3, 4, 5, 6]));
+// function showArr(arr) {
+//   let big = arr[0]
+//   for (let i in arr) {
+//     if (arr[i] > big) {
+//       big = arr[i]
+//     }
+//   }
+//   return big
+// }
+// console.log(showArr([1, 2, 25, 3, 4, 5, 6]))
 
 //- створити функцію яка повертає найменьше число з масиву
-// let showArr = (arr) => Math.min(...arr)
-// console.log(showArr([1, 2, 3, 4, 5, 6]));
+// function showArr(arr) {
+//   let small = arr[0]
+//   for (let i in arr) {
+//     if (arr[i] < small) {
+//       small = arr[i]
+//     }
+//   }
+//   return small
+// }
+// console.log(showArr([1, 2, 3, -1, 4, 5, 6]))
 
 //- створити функцію яка приймає масив чисел та складає значення елементів масиву та повертає його.
 // let arr = [1,2,3]
@@ -90,21 +119,28 @@
 // console.log(howObj(arr))
 
 //- Створити функцію яка приймає масив будь яких объектів, та повертає загальн кількість полів в них
- let arr = [{name: 'Yurii', surname: 'Oleksvksoyi'}, {name: 'Vika', surname: 'Kushcz'}, {}, 25, 'string', ['asdasd']]
- function keys(array){
-    let result = 0
-    for(let i of array){
-        if(typeof i === 'object' && !Array.isArray(i)){
-            for(let j in i){
-                if(j !== null ){
-                    result++
-                }
-            }
-        }
-    }
-    console.log(result);
-}
-keys(arr)
+// let arr = [
+//   { name: 'Yurii', surname: 'Oleksvksoyi' },
+//   { name: 'Vika', surname: 'Kushcz' },
+//   {},
+//   25,
+//   'string',
+//   ['asdasd'],
+// ]
+// function keys(array) {
+//   let result = 0
+//   for (let i of array) {
+//     if (typeof i === 'object' && !Array.isArray(i)) {
+//       for (let j in i) {
+//         if (j !== null) {
+//           result++
+//         }
+//       }
+//     }
+//   }
+//   console.log(result)
+// }
+// keys(arr)
 
 //- створити функцію  яка скаладає значення елементів з однаковими індексами  та повертає новий результуючий масив.
 // Приклад
@@ -112,26 +148,30 @@ keys(arr)
 //     [2,3,4,5]
 // результат
 //     [3,5,7,9]
-// let arr1 = [1,2,3,4]
-// let arr2 = [2,3,4,5]
-//
-// function indexSum(first, second){
-//     let arr3 = []
-//     for(let i in first) {
-//         arr3.push(first[i] + second[i])
-//     }
-//     return arr3
+// let arr1 = [1, 2, 3, 4]
+// let arr2 = [2, 3, 4, 5]
+
+// function indexSum(first, second) {
+//   let arr3 = []
+//   for (let i in first) {
+//     arr3.push(first[i] + second[i])
+//   }
+//   return arr3
 // }
-// console.log(indexSum(arr1, arr2));
+// console.log(indexSum(arr1, arr2))
 
 //- *** приймає масив та число "i", та міняє місцями об`єкт який знаходиться в індексі "i" на "i+1"
-// let arr = [1,2,3]
-// function chamge(array , i){
-//     let delet = array.splice(i,1)
-//     array.splice(i+1,0,delet[0])
-//     console.log(array);
+// let arr = [1, 2, 3]
+// function chamge(array, i) {
+//   if (i >= array.length) {
+//     console.log('Too big bro')
+//     return
+//   }
+//   let delet = array.splice(i, 1)
+//   array.splice(i + 1, 0, delet[0])
+//   console.log(array)
 // }
-// chamge(arr,1)
+// chamge(arr, 3)
 
 //- *** створити функцію яка буде переносити елементи з значенням 0 у кінець маисву. Зберігаючи при цьому порядок не нульових значень.
 // Двожина масиву від 2 до 100
@@ -139,17 +179,17 @@ keys(arr)
 // [1,0,6,0,3] => [1,6,3,0,0]
 // [0,1,2,3,4] => [1,2,3,4,0]
 // [0,0,1,0]   => [1,0,0,0]
-// let arr = [0,0,1,0,0,0,0,0,0,0,2,3,4,0,0,0,0,0,0,0]
-// function zero(array){
-//     for(let i in array){
-//         if(array[i] === 0){
-//           let a =  array.splice(i,1)
-//             array.push(a[0])
-//         }
+// let arr = [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 0, 0, 0, 0, 5, 0, 0]
+// function zero(array) {
+//   let a = []
+//   for (const i in array) {
+//     if (array[i] !== 0) {
+//       a.push(array.splice(i, 1)[0])
 //     }
-//     console.log(array)
+//   }
+//   return a.concat(arr)
 // }
-// zero(arr)
+// console.log(zero(arr))
 
 //Створити функцію яка :
 // - Додає в боді блок з текстом "Hello owu"
@@ -206,3 +246,56 @@ keys(arr)
 // }
 // fromWher(usersWithId, citiesWithId)
 
+// ***- беремо завдання з правилами з укроку №3 :
+// Та робимо це функцією.При цьому правила отримувати через аргумент.
+// "Є масив котрий характеризує правила. Створити скрипт який ітерує цей масив, та робить з кожне правило в окремому блоці.
+// При цому в блоці, номер правила записати в свій блок, текст правила записати в свій окремий блок.
+// Результатом відпрацювання скріпта повинна бути структура яка міститься в блоці wrap файла rule.html
+
+let rules = [
+  {
+    title: 'Первое правило Бойцовского клуба.',
+    body: 'Никому не рассказывать о Бойцовском клубе.',
+  },
+  {
+    title: 'Второе правило Бойцовского клуба.',
+    body: 'Никогда никому не рассказывать о Бойцовском клубе.',
+  },
+  {
+    title: 'Третье правило Бойцовского клуба.',
+    body: 'В схватке участвуют только двое.',
+  },
+  {
+    title: 'Четвертое правило Бойцовского клуба.',
+    body: 'Не более одного поединка за один раз.',
+  },
+  {
+    title: 'Пятое правило Бойцовского клуба.',
+    body: 'Бойцы сражаются без обуви и голые по пояс.',
+  },
+  {
+    title: 'Шестое правило Бойцовского клуба.',
+    body: 'Поединок продолжается столько, сколько потребуется.',
+  },
+  {
+    title: 'Седьмое правило Бойцовского клуба.',
+    body:
+      'Если противник потерял сознание или делает вид, что потерял, или говорит «Хватит» — поединок окончен.',
+  },
+  {
+    title: 'Восьмое и последнее правило Бойцовского клуба.',
+    body: 'Новичок обязан принять бой.',
+  },
+]
+
+function addBlock(arr) {
+  for (const i of arr) {
+    let box = document.createElement('div')
+    box.innerHTML = '<h3>' + i.title + '</h3>'
+    let boxInside = document.createElement('div')
+    boxInside.innerText = i.body
+    box.appendChild(boxInside)
+    document.body.appendChild(box)
+  }
+}
+addBlock(rules)
