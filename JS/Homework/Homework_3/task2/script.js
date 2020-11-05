@@ -321,8 +321,6 @@
 //     }
 // }
 
-
-
 // let users = [{
 //     name: 'vasya',
 //     age: 31,
