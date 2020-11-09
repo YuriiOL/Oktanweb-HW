@@ -44,7 +44,7 @@
 // Все робити через функції масивів (foreach, map ...тд)
 // Дан масив :
 
-let users = [ {name: 'vasya', age: 31, status: false}, {name: 'petya', age: 30, status: true}, {name: 'kolya', age: 29, status: true}, {name: 'olya', age: 28, status: false}, {name: 'max', age: 30, status: true}, {name: 'anya', age: 31, status: false}, {name: 'oleg', age: 28, status: false}, {name: 'andrey', age: 29, status: true}, {name: 'masha', age: 30, status: true}, {name: 'olya', age: 31, status: false}, {name: 'max', age: 31, status: true} ];
+//let users = [ {name: 'vasya', age: 31, status: false}, {name: 'petya', age: 30, status: true}, {name: 'kolya', age: 29, status: true}, {name: 'olya', age: 28, status: false}, {name: 'max', age: 30, status: true}, {name: 'anya', age: 31, status: false}, {name: 'oleg', age: 28, status: false}, {name: 'andrey', age: 29, status: true}, {name: 'masha', age: 30, status: true}, {name: 'olya', age: 31, status: false}, {name: 'max', age: 31, status: true} ];
 
 // - відсортувати його за  віком (зростання , а потім окремо спадання)
 // console.log(users.sort((a, b) => a.age - b.age));
@@ -55,9 +55,15 @@ let users = [ {name: 'vasya', age: 31, status: false}, {name: 'petya', age: 30, 
 // console.log(users.sort((a, b) => b.name.length - a.name.length));
 
 // - пройтись по ньому та додати кожному юзеру поле id - яке характеризує унікальний індентифікатор (По якому принципу його створювати - ваше рішення), та зберегти це в новий масив (первинний масив залишиться без змін)
-let arr = users.map(item => item)
-arr.forEach((item, index)=> item.id = index)
-console.log(arr)
-console.log(users)
+// let usersJSON = JSON.stringify(users)
+// let arr = JSON.parse(usersJSON)
+// arr.map((item, index)=> item.id = index + 1)
+// console.log(arr)
+// console.log(users)
 
 // - відсортувати його за індентифікатором
+// console.log(arr.sort((a, b) => a.id - b.id));
+
+// -- наисать функцию калькулятора с 2мя числами и колбеком
+// -- наисать функцию калькулятора с 3мя числами и колбеком
+
