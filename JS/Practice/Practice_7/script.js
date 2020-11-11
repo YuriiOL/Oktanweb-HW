@@ -203,23 +203,27 @@
 // 2. Key = 4
 // Answer: MinIndex = 3, MaxIndex = 6.
 
-let arr1 = [1, 2, 3, 4, 4, 4, 4, 7, 7, 9, 14]
+// let arr1 = [1, 2, 3, 4, 4, 4, 4, 7, 7, 9, 14]
+//
+// function maxmin(num, arr){
+//     let arrMas = []
+//     arr.map((item,indx)=> {
+//         if(item === num){
+//             arrMas.push(indx)
+//         }
+//     })
+//     if(arrMas.length === 0){
+//         return -1
+//     }
+//     return (`min ${arrMas[0]}, max ${arrMas[arrMas.length-1]}`)
+// }
+//
+// console.log(maxmin(15, arr1));
+// console.log(maxmin(1, arr1));
+// console.log(maxmin(3, arr1));
+// console.log(maxmin(4, arr1));
+// console.log(maxmin(7, arr1));
 
-function maxmin(num, arr){
-    let arrMas = []
-    arr.map((item,indx)=> {
-        if(item === num){
-            arrMas.push(indx)
-        }
-    })
-    if(arrMas.length === 0){
-        return -1
-    }
-    return (`min ${arrMas[0]}, max ${arrMas[arrMas.length-1]}`)
-}
 
-console.log(maxmin(15, arr1));
-console.log(maxmin(1, arr1));
-console.log(maxmin(3, arr1));
-console.log(maxmin(4, arr1));
-console.log(maxmin(7, arr1));
+
+
