@@ -27,7 +27,7 @@ let max = arrMax.reduce((acum, value)=>{
         acum = value
     }
     return acum
-}, 0)
+}, arrMax[0])
 console.log(max);
 
 // ___________________________
@@ -50,7 +50,7 @@ numbers.split('').reduce((acum,value, i, arr)=>{
     return value
 })
 console.log(counter)
-console.log('-------------------------')
+
 // ________________________________
 //
 // Вот вам еще одно дополнительное:

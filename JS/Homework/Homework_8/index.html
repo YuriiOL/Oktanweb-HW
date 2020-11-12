@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        .show {
+            display: none;
+        }
+
+        .show > ul > li {
+            list-style: none;
+            margin-left: -30px;
+        }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .wrapper{
+            display: flex;
+            width: 400px;
+        }
+        .img{
+            height: 200px;
+            width: 200px;
+            background-size: cover ;
+            background-position: center;
+        }
+    </style>
+    <title>Homework_8</title>
+</head>
+<body>
+<div id="text">Hide Me</div>
+<hr>
+<button>Click</button>
+<hr>
+
+<form action="" id="form">
+    <input type="number" placeholder="Age" name="age">
+    <input type="submit" value="Confirm" name="submit">
+</form>
+<hr>
+<button id="menu">MENU</button>
+<div class="show">
+    <ul>
+        <li>Menu</li>
+        <li>About Us</li>
+        <li>Info</li>
+    </ul>
+</div>
+<hr>
+<form action="" id="twoForms">
+    <input type="text" placeholder="Name" name="name">
+    <input type="text" placeholder="Surname" name="surname">
+</form>
+<button class="console">Show in console</button>
+<hr>
+<form id="tableGenerator">
+    <input type="number"  placeholder="rows" name="row">
+    <input type="number"  placeholder="columns" name="col">
+    <input type="text"   placeholder="element" name="elem">
+</form>
+<button id="addTable">Add Table</button>
+<hr>
+<div class="wrapper">
+   <button id="left">Left</button> <div class="img"></div> <button id="right">Right</button>
+</div>
+<hr>
+<form action="" id="badWordsForm">
+    <input type="text" placeholder="bad words" name="badWordsInput">
+</form>
+<button id="badWordsBtn">Submit</button>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
