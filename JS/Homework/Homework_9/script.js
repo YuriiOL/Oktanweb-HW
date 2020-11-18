@@ -56,7 +56,6 @@
 //             tat3.value = ''
 //             count = 0
 //         }else{
-//             console.log(arr[count-1]);
 //             tat3.value = arr[count-1]
 //         }
 //         localStorage.setItem('user', JSON.stringify({'array': arr, 'conuts': count}))
@@ -66,7 +65,6 @@
 //         if(count === arr.length+1){
 //             count = arr.length
 //         }else {
-//             console.log(arr[count-1]);
 //             tat3.value = arr[count-1]
 //         }
 //         localStorage.setItem('user', JSON.stringify({'array': arr, 'conuts': count}))
@@ -74,7 +72,7 @@
 //     localStorage.setItem('user', JSON.stringify({'array': arr, 'conuts': count}))
 // }
 // let saveInfo = JSON.parse(localStorage.getItem('user'))
-// if(saveInfo.array[saveInfo.conuts-1] === undefined || saveInfo.array[saveInfo.conuts-1] == null){
+// if(saveInfo == null || saveInfo.array[saveInfo.conuts-1] === undefined ){
 //     tat3.value = ''
 // }else{
 //     tat3.value = saveInfo.array[saveInfo.conuts-1]
@@ -85,52 +83,89 @@
 // Данные вводить через соответсвующую форму.
 // --Каждому контакту добавить кнопку для удаления контакта.
 // --Каждому контакту добавить кнопку редактироваиня. При нажати на нее появляется форма, в которой есть все необходимые инпуты для редактирования, которые уже заполнены данными объекта
-
 let form = document.forms.user
 let database = document.querySelector('.database')
 let index = 0
-class Saveuser{
-    constructor(fio, number,mail,firma,otdel,bday,index){
+if(localStorage.length != 0){
+    index = localStorage.length
+}
+
+class Saveuser {
+    constructor(fio, number, mail, firma, otdel, bday) {
         this.fio = fio
         this.number = number
         this.mail = mail
         this.firma = firma
         this.otdel = otdel
         this.bday = bday
-        this.index = index
     }
-
 }
+
 let btn = document.querySelector('.btnSub')
 btn.onclick = () => {
-    let user = new Saveuser(form.fio.value, form.number.value, form.mail.value, form.firma.value, form.otdel.value, form.bDay.value, index)
-    localStorage.setItem(index, JSON.stringify(user))
-    show()
+    let user = new Saveuser(form.fio.value, form.number.value, form.mail.value, form.firma.value, form.otdel.value, form.bDay.value)
+    localStorage.setItem(index, JSON.stringify({'info': user, 'indexs': index}))
+    addElementToShow(index)
     index++
 }
-function show(){
-    if(JSON.parse(localStorage.getItem(index)) === null){
+
+function showElement() {
+    if (localStorage.length > 0) {
+        for (let i = 0; i < localStorage.length; i++) {
+            let obj = JSON.parse(localStorage.getItem(i))
+            let divka = document.createElement('div')
+            divka.innerText = `
+            ${obj.info.fio}
+            ${obj.info.number}
+            ${obj.info.mail}
+            ${obj.info.firma}
+            ${obj.info.otdel}
+            ${obj.info.bday}`
+
+            database.appendChild(divka)
+
+            let btnRemove = document.createElement('button')
+            let btnEdit = document.createElement('button')
+            btnEdit.innerText = 'Edit'
+            btnRemove.innerText = 'Remove'
+            database.appendChild(btnRemove)
+            database.appendChild(btnEdit)
+        }
+    } else {
         return
     }
-    let showUserInfo = JSON.parse(localStorage.getItem(index))
-
-    if(showUserInfo.index == index) {
-        let info = document.createElement('div')
-        info.innerText += `${showUserInfo.fio}
-    ${showUserInfo.number}
-    ${showUserInfo.mail}
-    ${showUserInfo.firma}
-    ${showUserInfo.otdel}
-    ${showUserInfo.bday}
-   
-    `
-    }else{
-        showUserInfo = JSON.parse(localStorage.getItem(showUserInfo.index))
-
-    }
-    database.appendChild(info)
 }
-show()
+
+showElement()
+
+function addElementToShow(ind) {
+    let obj = JSON.parse(localStorage.getItem(ind))
+    let divka = document.createElement('div')
+    divka.innerText = `${obj.info.fio}
+            ${obj.info.number}
+            ${obj.info.mail}
+            ${obj.info.firma}
+            ${obj.info.otdel}
+            ${obj.info.bday}`
+
+    database.appendChild(divka)
+
+    let btnRemove = document.createElement('button')
+    let btnEdit = document.createElement('button')
+    btnEdit.innerText = 'Edit'
+    btnRemove.innerText = 'Remove'
+    database.appendChild(btnRemove)
+    database.appendChild(btnEdit)
+    btnRemove.onclick =()=>{
+        removig(ind)
+    }
+    function removig(indexToRemove){
+        localStorage.removeItem(indexToRemove)
+    }
+}
+
+
+
 
 
 
