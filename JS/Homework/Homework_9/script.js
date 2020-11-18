@@ -78,96 +78,96 @@
 //     tat3.value = saveInfo.array[saveInfo.conuts-1]
 // }
 
-//- Реализуйте записную книгу, хранящую данные в локальном хранилище.
+// - Реализуйте записную книгу, хранящую данные в локальном хранилище.
 // Данные которые надо сохранять : ФИО, номер, почта, фирма, отдел, день рождения
 // Данные вводить через соответсвующую форму.
 // --Каждому контакту добавить кнопку для удаления контакта.
 // --Каждому контакту добавить кнопку редактироваиня. При нажати на нее появляется форма, в которой есть все необходимые инпуты для редактирования, которые уже заполнены данными объекта
-let form = document.forms.user
-let database = document.querySelector('.database')
-let index = 0
-if(localStorage.length != 0){
-    index = localStorage.length
-}
-
-class Saveuser {
-    constructor(fio, number, mail, firma, otdel, bday) {
-        this.fio = fio
-        this.number = number
-        this.mail = mail
-        this.firma = firma
-        this.otdel = otdel
-        this.bday = bday
-    }
-}
-
-let btn = document.querySelector('.btnSub')
-btn.onclick = () => {
-    let user = new Saveuser(form.fio.value, form.number.value, form.mail.value, form.firma.value, form.otdel.value, form.bDay.value)
-    localStorage.setItem(index, JSON.stringify({'info': user, 'indexs': index}))
-    addElementToShow(index)
-    index++
-}
-
-function showElement() {
-    if (localStorage.length > 0) {
-        for (let i = 0; i < localStorage.length; i++) {
-            let obj = JSON.parse(localStorage.getItem(i))
-            let divka = document.createElement('div')
-            divka.innerText = `
-            ${obj.info.fio}
-            ${obj.info.number}
-            ${obj.info.mail}
-            ${obj.info.firma}
-            ${obj.info.otdel}
-            ${obj.info.bday}`
-
-            database.appendChild(divka)
-
-            let btnRemove = document.createElement('button')
-            let btnEdit = document.createElement('button')
-            btnEdit.innerText = 'Edit'
-            btnRemove.innerText = 'Remove'
-            database.appendChild(btnRemove)
-            database.appendChild(btnEdit)
-        }
-    } else {
-        return
-    }
-}
-
-showElement()
-
-function addElementToShow(ind) {
-    let obj = JSON.parse(localStorage.getItem(ind))
-    let divka = document.createElement('div')
-    divka.innerText = `${obj.info.fio}
-            ${obj.info.number}
-            ${obj.info.mail}
-            ${obj.info.firma}
-            ${obj.info.otdel}
-            ${obj.info.bday}`
-
-    database.appendChild(divka)
-
-    let btnRemove = document.createElement('button')
-    let btnEdit = document.createElement('button')
-    btnEdit.innerText = 'Edit'
-    btnRemove.innerText = 'Remove'
-    database.appendChild(btnRemove)
-    database.appendChild(btnEdit)
-    btnRemove.onclick =()=>{
-        removig(ind)
-    }
-    function removig(indexToRemove){
-        localStorage.removeItem(indexToRemove)
-    }
-}
-
-
-
-
-
-
-
-
+// let form = document.forms.user
+// let database = document.querySelector('.database')
+// let arrayOfUsers = []
+// if (localStorage.length != 0) {
+//     arrayOfUsers = JSON.parse(localStorage.getItem('users'))
+// }
+//
+// class Saveuser {
+//     constructor(fio, number, mail, firma, otdel, bday) {
+//         this.fio = fio
+//         this.number = number
+//         this.mail = mail
+//         this.firma = firma
+//         this.otdel = otdel
+//         this.bday = bday
+//     }
+// }
+//
+// let btn = document.querySelector('.btnSub')
+// btn.onclick = () => {
+//     let user = new Saveuser(form.fio.value, form.number.value, form.mail.value, form.firma.value, form.otdel.value, form.bDay.value)
+//     if (localStorage.length === 0) {
+//         arrayOfUsers.push(user)
+//         localStorage.setItem('users', JSON.stringify(arrayOfUsers))
+//     } else {
+//         arrayOfUsers = JSON.parse(localStorage.getItem('users'))
+//         arrayOfUsers.push(user)
+//         localStorage.setItem('users', JSON.stringify(arrayOfUsers))
+//     }
+//    window.location.reload()
+// }
+//
+// function showElement() {
+//     if (arrayOfUsers.length > 0) {
+//         for (let i = 0; i < arrayOfUsers.length; i++) {
+//             let {fio, number, mail, firma, otdel, bday} = arrayOfUsers[i]
+//             let divka = document.createElement('div')
+//             divka.innerText = `
+//             ${fio}
+//             ${number}
+//             ${mail}
+//             ${firma}
+//             ${otdel}
+//             ${bday}`
+//             database.appendChild(divka)
+//             let btnRemove = document.createElement('button')
+//             let btnEdit = document.createElement('button')
+//             btnEdit.innerText = 'Edit'
+//             btnRemove.innerText = 'Remove'
+//             database.appendChild(btnRemove)
+//             database.appendChild(btnEdit)
+//             ////////////////// Remove
+//             btnRemove.onclick =()=>{
+//                 arrayOfUsers.splice(i,1)
+//                 localStorage.setItem('users', JSON.stringify(arrayOfUsers))
+//                 window.location.reload()
+//             }
+//             ////////////////////
+//             ////////////////// Edit
+//             btnEdit.onclick = () => {
+//                 editThisShit()
+//                 let btnEditDone = document.querySelector('.btnSubEdit')
+//                 btnEditDone.onclick = () =>{
+//                     console.log(i)
+//                     let inputs =  document.forms.userEdit
+//                     let newOBJ = new Saveuser( inputs.fioEdit.value,  inputs.numberEdit.value, inputs.mailEdit.value, inputs.firmaEdit.value, inputs.otdelEdit.value, inputs.bDayEdit.value )
+//                     arrayOfUsers.splice(i,1, newOBJ)
+//                     localStorage.setItem('users', JSON.stringify(arrayOfUsers))
+//                     window.location.reload()
+//                 }
+//             }
+//             function editThisShit(){
+//                 let editDiv = document.querySelector('.edit')
+//                 editDiv.style.display = 'flex'
+//                 let inputs =  document.forms.userEdit
+//                 inputs.fioEdit.value = fio
+//                 inputs.numberEdit.value = number
+//                 inputs.mailEdit.value = mail
+//                 inputs.firmaEdit.value = firma
+//                 inputs.otdelEdit.value = otdel
+//                 inputs.bDayEdit.value = bday
+//             }
+//         }
+//     } else {
+//         return
+//     }
+// }
+// showElement()
