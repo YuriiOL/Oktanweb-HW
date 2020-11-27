@@ -130,3 +130,79 @@
 //         console.log('Im Done for today')
 //         console.log(ev)})
 ////////////////////////////////////////Promise
+
+////////////////////////////////////////AsyncAwait
+// let energy = 1000
+// function weakUp(ev){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             ev -= 200
+//             if (ev <= 0){
+//                 reject('Im Dead')
+//             }
+//             resolve(ev)
+//         }, 2000)
+//
+//     })
+// }
+// function cleanTheth(ev){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             ev -= 300
+//             if (ev <= 0){
+//                 reject('Im Dead')
+//             }
+//             resolve(ev)
+//         },4000)
+//     })
+// }
+// function eat(ev){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             ev += 1000
+//             if (ev <= 0){
+//                 reject('Im Dead')
+//             }
+//             resolve(ev)
+//         },1000)
+//     })
+// }
+// function goBead(ev){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             ev -= 100
+//             if (ev <= 0){
+//                 reject('Im Dead')
+//             }
+//             resolve(ev)
+//         },1000)
+//     })
+// }
+// function doneForToday(ev){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             ev -= 500
+//             if (ev <= 0){
+//                 reject('Im Dead')
+//             }
+//             resolve(ev)
+//         },5000)
+//     })
+// }
+// async function day(){
+//     try {
+//         let ection1 = await weakUp(energy)
+//         console.log(ection1)
+//         let ection2 = await cleanTheth(ection1)
+//         console.log(ection2)
+//         let ection3 = await eat(ection2)
+//         console.log(ection3)
+//         let ection4 = await goBead(ection3)
+//         console.log(ection4)
+//         let ection5 = await doneForToday(ection4)
+//         console.log(ection5)
+//     }catch (e){
+//         console.log(e)
+//     }
+// }
+// day()
