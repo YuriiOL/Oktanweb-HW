@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57baa08a-93f6-4332-b183-b9799f4ffa1e" name="Default Changelist" comment="Homework_10">
-      <change beforePath="$PROJECT_DIR$/JS/Homework/Homework_10/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Homework/Homework_10/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="react_les1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1jeLu8kgUsCUUl6ExiBttqEavlD" />
   <component name="ProjectLevelVcsManager">
@@ -50,9 +58,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Radentu/MDP/mydp-site" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -76,6 +85,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.template1.html" />
+        <item itemvalue="JavaScript Debug.template1.html" />
+        <item itemvalue="JavaScript Debug.template1.html" />
+        <item itemvalue="JavaScript Debug.template1.html" />
         <item itemvalue="JavaScript Debug.template1.html" />
       </list>
     </recent_temporary>
@@ -116,7 +129,9 @@
       <workItem from="1605709700520" duration="13000" />
       <workItem from="1605718856223" duration="39000" />
       <workItem from="1605803044581" duration="9885000" />
-      <workItem from="1606491856596" duration="1635000" />
+      <workItem from="1606491856596" duration="1937000" />
+      <workItem from="1607270513659" duration="3569000" />
+      <workItem from="1607274120092" duration="6015000" />
     </task>
     <task id="LOCAL-00001" summary="HomeWork3">
       <created>1604167757817</created>
@@ -234,7 +249,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="react_les1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="react_les1" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -254,63 +296,5 @@
     <MESSAGE value="Homework_9" />
     <MESSAGE value="Homework_10" />
     <option name="LAST_COMMIT_MESSAGE" value="Homework_10" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="525" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604955852201">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="525" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1604955852201" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605718892986">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605718892986" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1604167914417">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604167914417" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1604167914417">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604167914417" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1604167914416">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604167914416" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1604167914417">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604167914417" />
-    <state width="1515" height="210" key="GridCell.Tab.1.bottom" timestamp="1604167914417">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604167914417" />
-    <state width="1515" height="210" key="GridCell.Tab.1.center" timestamp="1604167914417">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604167914417" />
-    <state width="1515" height="210" key="GridCell.Tab.1.left" timestamp="1604167914417">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604167914417" />
-    <state width="1515" height="210" key="GridCell.Tab.1.right" timestamp="1604167914417">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604167914417" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1604160419259">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604160419259" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605813663013">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605813663013" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1606493485404">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1606493485404" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605689121591">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605689121591" />
   </component>
 </project>
