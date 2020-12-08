@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57baa08a-93f6-4332-b183-b9799f4ffa1e" name="Default Changelist" comment="Homework_10">
-      <change beforePath="$PROJECT_DIR$/JS/Homework/Homework_10/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Homework/Homework_10/script.js" afterDir="false" />
+    <list default="true" id="57baa08a-93f6-4332-b183-b9799f4ffa1e" name="Default Changelist" comment="Hommework2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jeLu8kgUsCUUl6ExiBttqEavlD" />
@@ -76,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.template1.html" />
         <item itemvalue="JavaScript Debug.template1.html" />
       </list>
     </recent_temporary>
@@ -254,63 +260,5 @@
     <MESSAGE value="Homework_9" />
     <MESSAGE value="Homework_10" />
     <option name="LAST_COMMIT_MESSAGE" value="Homework_10" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="525" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604955852201">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="525" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1604955852201" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605718892986">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605718892986" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1604167914417">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604167914417" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1604167914417">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604167914417" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1604167914416">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604167914416" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1604167914417">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604167914417" />
-    <state width="1515" height="210" key="GridCell.Tab.1.bottom" timestamp="1604167914417">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604167914417" />
-    <state width="1515" height="210" key="GridCell.Tab.1.center" timestamp="1604167914417">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604167914417" />
-    <state width="1515" height="210" key="GridCell.Tab.1.left" timestamp="1604167914417">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604167914417" />
-    <state width="1515" height="210" key="GridCell.Tab.1.right" timestamp="1604167914417">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604167914417" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1604160419259">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604160419259" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605813663013">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605813663013" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1606493485404">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1606493485404" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605689121591">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605689121591" />
   </component>
 </project>
