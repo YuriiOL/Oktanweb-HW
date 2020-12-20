@@ -8,6 +8,8 @@ import {
     Link,
     withRouter
 } from "react-router-dom";
+import FullPost from "../full-post/FullPost";
+import FullUser from "../full-user/FullUser";
 
 
 
@@ -23,14 +25,15 @@ class AllPosts extends Component {
 
     render() {
         let {posts} = this.state
+        let {match:{url}} = this.props
         return (
             <div>
                 {posts.map(value => <Post key={value.id} item={value}/>)}
                 <hr/>
                 <Switch>
-                    <Route path={'/post/:id'} render={(props)=>{
-                        console.log(props);
-                        return 'asdaasdas'
+                    <Route path={url + '/:id'} render={(props)=>{
+                        const {match: {params: {id}}} = props
+                        return <FullPost id={id} key={id}/>
                     }}/>
                 </Switch>
                 <hr/>

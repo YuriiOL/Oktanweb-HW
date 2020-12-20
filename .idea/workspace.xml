@@ -20,17 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57baa08a-93f6-4332-b183-b9799f4ffa1e" name="Default Changelist" comment="Hommework2">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_12_2020_19_48__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_12_2020_19_48__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/REACT/template/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/template/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REACT/template/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/template/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REACT/template/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/REACT/template/src/components/Comment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/REACT/template/src/components/Comments.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/REACT/template/src/components/Post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/REACT/template/src/components/Posts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/REACT/template/src/services/CommentServices.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/REACT/template/src/services/PostServices.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/REACT/template/src/components/all-comments/AllComments.js" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/template/src/components/all-comments/AllComments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REACT/template/src/components/all-post/AllPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/template/src/components/all-post/AllPosts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REACT/template/src/components/all-users/AllUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/template/src/components/all-users/AllUsers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="react_homework3" />
+        <entry key="$PROJECT_DIR$" value="react_homework4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

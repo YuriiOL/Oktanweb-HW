@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {CommentsService} from "../services/CommentsService";
 import Comment from "../comments/Comment";
+import FullComment from "../full-comment/FullComment";
 import {
     BrowserRouter as Router,
     Switch,
@@ -8,6 +9,8 @@ import {
     Link,
     withRouter
 } from "react-router-dom";
+
+
 
 class AllComments extends Component {
     state = {comments: []}
@@ -19,13 +22,15 @@ class AllComments extends Component {
     }
     render() {
         let {comments} = this.state
+        let {match:{url}} = this.props
         return (
             <div>
                 {comments.map(value => <Comment key={value.id} item={value}/>)}
                 <hr/>
                 <Switch>
                     <Route path={'/comments/:id'} render={(props)=>{
-                        return 'asdasdas'
+                        let {match: {params: {id}}} = props
+                        return <FullComment id={id} key={id}/>
                     }}/>
                 </Switch>
                 <hr/>

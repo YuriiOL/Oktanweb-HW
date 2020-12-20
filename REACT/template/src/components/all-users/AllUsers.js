@@ -8,6 +8,7 @@ import {
     Link,
     withRouter
 } from "react-router-dom";
+import FullUser from "../full-user/FullUser";
 
 class AllUsers extends Component {
 
@@ -21,14 +22,15 @@ class AllUsers extends Component {
 
     render() {
         let {users} = this.state
+        let {match:{url}} = this.props
         return (
             <div>
                 {users.map(value => <User key={value.id} item={value}/>)}
                 <hr/>
                     <Switch>
-                        <Route path={'/users/:id'} render={(props)=>{
-                            console.log(props)
-                            return 'asdasdas'
+                        <Route path={url + '/:id'} render={(props)=>{
+                            let {match: {params: {id}}} = props
+                            return <FullUser id={id} key={id}/>
                         }}/>
                     </Switch>
                 <hr/>
@@ -37,4 +39,4 @@ class AllUsers extends Component {
     }
 }
 
-export default AllUsers;
+export default withRouter(AllUsers)
