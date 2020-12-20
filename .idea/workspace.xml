@@ -20,7 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57baa08a-93f6-4332-b183-b9799f4ffa1e" name="Default Changelist" comment="Hommework2">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_12_2020_19_48__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_12_2020_19_48__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REACT/template/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/template/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REACT/template/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/template/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REACT/template/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/REACT/template/src/components/Comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/REACT/template/src/components/Comments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/REACT/template/src/components/Post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/REACT/template/src/components/Posts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/REACT/template/src/services/CommentServices.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/REACT/template/src/services/PostServices.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +49,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="react_homework3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,22 +67,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/REACT/template/src/components/all-comments" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Oktanweb\REACT\template\src\components\all-comments" />
+      <recent name="D:\Oktanweb\JS\Homework\Homework_8" />
+      <recent name="D:\Oktanweb\JS\Practice\Practice_3" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Oktanweb\JS\Homework\Homework_8" />
       <recent name="D:\Oktanweb\JS\Practice\Practice_3\task2" />
       <recent name="D:\Oktanweb\JS\Practice\Practice_3\task1" />
       <recent name="D:\Oktanweb\JS\Homework\Homework_3\task1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Oktanweb\JS\Homework\Homework_8" />
-      <recent name="D:\Oktanweb\JS\Practice\Practice_3" />
     </key>
   </component>
   <component name="RunManager">
