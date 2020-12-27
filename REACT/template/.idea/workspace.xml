@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6c4006ad-a04f-458f-a172-bcaacfddcdc1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
@@ -16,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../.." value="react_homework6" />
+        <entry key="$PROJECT_DIR$/../.." value="homework_7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -67,7 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1609009696131</updated>
       <workItem from="1609009701009" duration="7721000" />
-      <workItem from="1609062498349" duration="11129000" />
+      <workItem from="1609062498349" duration="11297000" />
+      <workItem from="1609079184816" duration="8686000" />
     </task>
     <servers />
   </component>

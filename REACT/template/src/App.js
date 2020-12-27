@@ -1,28 +1,46 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { incCounter, decCounter, resetCounter} from "./redux";
+import {fetchTodos} from "./redux/action-creators/todos-action";
 
-import {useDispatch, useSelector} from 'react-redux';
 
+// redux structure +
+// action types +
+// action creators +
+// reducer and reducers (combine reducers) +
+// thunk + async action calls (e.g. todo list)
 
 export default function App() {
-    const counter = useSelector(({counter}) => counter)
-    const todo = useSelector(({todo}) => todo)
+    const { todos, counter } = useSelector(
+        ({ counter: { counter }, todos: { todos } }) => ({
+            todos,
+            counter
+        })
+    );
     const dispatch = useDispatch();
+
     useEffect(() => {
-            fetch(`https://jsonplaceholder.typicode.com/todos/${counter}`)
-                .then(value => value.json())
-                .then(value => dispatch({type: 'SET_TODO', payload: value}))
-    }, [counter])
+        dispatch(fetchTodos());
+    }, [dispatch]);
+
+
+    const handleInc = () => dispatch(incCounter());
+    const handleDec = () => dispatch(decCounter());
+    const handleReset = () => dispatch(resetCounter());
+
     return (
-        <div>
-            <h1>Counter {counter}</h1>
-            <button onClick={() => dispatch({type: 'INC_COUNTER'})}>add</button>
-            <button onClick={() => dispatch({type: 'DEC_COUNTER'})}>dec</button>
-            <button onClick={() => dispatch({type: 'RESET'})}>reset</button>
-            {todo && <div>
-                <h3>{todo.id} </h3>
-                <h3>{todo.title} </h3>
-                <h3>{todo.completed.toString()}</h3>
-            </div>}
+        <div className="App">
+            <h1>Hello CodeSandbox {counter}</h1>
+            <button onClick={handleInc}>inc</button>
+            <button onClick={handleDec}>dec</button>
+            <button onClick={handleReset}>reset</button>
+
+            {todos.map((todo) => (
+                <h2>
+                    {todo.id} - {todo.title}
+                </h2>
+            ))}
+            <h2>Start editing to see some magic happen!</h2>
         </div>
     );
 }
